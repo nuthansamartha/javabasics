@@ -10,7 +10,7 @@ public class hcf {
         int b1=b;
         scn.close();
         while (b!=0){
-            int temp=b;
+            int temp=b;    // a<------b<------r
             b=a%b;
             a=temp;
         }
